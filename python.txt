@@ -1,0 +1,91 @@
+Strings:- strings is collection of sequence of character enclosed in " " or ' ' or '''  '''
+
+    'Python'
+    "python"
+    '''---------------------
+        --------------------
+        ------------------------
+      '''
+*   we can access the character from the string by using forward index and backward index
+*  string is immutable
+*  we can find the length using length function                      0   1    2    3   4   5      ------>  forward / positive index
+                                                                    ---------------------------
+                                                                    P |  Y  | T |  H | O | N
+                                                                   ----------------------------
+                                                                    -6   -5   -4   -3  -2  -1         <---- backward/negative index
+
+
+
+LIST:
+
+list is collection of homogeneous or heterogeneous data.   -homogeneous name stored data are same thing
+* list is mutable
+* we can access the data from the list by using forward/positive index or negative/Backward index.
+* we find length by using len()
+* list are enclosed within square bracket.
+* list are stored in String, int ,float  in single variable list.
+
+
+   1) fruits = ["apple", "orange", "grapes"]
+    print(fruits)
+                        o/p --- apple, orange, grapes
+
+   2) fruits = ["apple", "orange", "grapes"]
+    print(fruits[2])
+                      o/p  ---grapes
+
+   3) data =[10, "python", 98.6, "BTM"]
+      print(data)
+      print(data[2])
+      print(data[-2],data[-1])
+                       
+                      o/p ---- [10, 'python', 98.6, 'BTM']
+                               98.6
+                               98.6 BTM
+
+
+--> Functions:
+
+function is a collection of or group of statement to performing a specific task.
+implement the function in python using def keyword
+
+-- Advantages:
+              1] Reusability of the code.
+              2] Debugging will become very easy.
+
+
+-- Functions are two types:
+
+1] pre-defined functions:- this are available with interpreter.
+2] user-defined functions:- programmer going to implement.
+
+-- user-defined functions need to two components to implement:
+   1] Function definition:- to Implement the task
+   2] Function calling:- call the function definition
+
+-- Syntax:
+
+            def funname(args):       args->temporaray args/ formal args    #args(Arguments)
+               statement1
+               statement2
+               statement3
+               statement4
+             funname(args)             args->actual args/ original args
+
+-- we can develop user-defined functions in 3 ways
+   
+   1] without args
+   2] with args
+   3] with return type
+           a.  Single return type
+           b.  Multiple return type
+
+   return: return is a keyword which will be perform two action at time.
+           
+          1] once return keyword saw by the interpreter , it will exit from the function immediate
+          2] if any value / result
+
+
+
+
+
